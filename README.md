@@ -1,11 +1,8 @@
-# Ajamid1
+# Ajamid
 
-See kaust sisaldab kümne praktilise tööd.
+See kaust sisaldab kümmet praktilist tööd.
 
 ## Tööde järjekord
-
-Tööd tehakse järjekorras, sest iga järgmine töö kasutab eelmise töö ideid ja
-lahendab järgmise arhitektuurilise probleemi.
 
 | Töö | Alamkaust | Põhiteema |
 |---:|---|---|
@@ -20,8 +17,6 @@ lahendab järgmise arhitektuurilise probleemi.
 | 09 | `elektriajam_09_*` | Bare-metal loop ja FreeRTOS-i ülesanded |
 | 10 | `elektriajam_10_*` | Portimine teisele mikrokontrollerile |
 
-Tärniga lõpp on praegu nimekonventsioon, mitte juba loodud kaust. Uue töö
-tegelik kaustanimi tuleb valida enne selle töö alustamist ja lisada siia tabelisse.
 
 ## Kihiline arhitektuur
 
@@ -35,9 +30,6 @@ Praktiliste tööde ühine siht on hoida järgmised kihid eraldi:
    vajab.
 6. **MCU configuration** – kontaktid, taimerid ja taktsageduse seadistus.
 
-Kõrgem kiht ei tohi sõltuda madalama kihi konkreetsetest kontaktidest ega
-Arduino riistvarafunktsioonidest. Näiteks ei tohi rakenduskiht kutsuda
-`analogWrite()` ega teada, kas väljund töötab Nano, ESP32 või STM32 peal.
 
 ## Praegune valmis töö: `elektriajam_01_nano`
 
@@ -134,20 +126,3 @@ OLEK
 ABI
 ```
 
-Iga töö alamkausta README peab kirjeldama selle töö enda käsud, ühendused,
-kompileerimiskäsu ja testimise järjekorra.
-
-## Uue töö lisamise reegel
-
-Kui alustad uut praktilist tööd:
-
-1. loo uus alamkaust nimega `elektriajam_XX_<platvorm>`;
-2. kopeeri ainult vajalik eelmisest tööst, mitte kogu projekti pimesi;
-3. säilita kihid eraldi kaustades;
-4. lisa alamkausta oma `README.md`;
-5. kirjelda kasutatud plaati, draiverit, ühendusi ja testimist;
-6. kompileeri Arduino CLI-ga enne füüsilist katset;
-7. testi enne mootori käivitamist toited, ühine GND ja ohutusolukord;
-8. uuenda selle juurkausta tööde tabelit.
-
-#
