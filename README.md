@@ -1,8 +1,6 @@
 # Ajamid1
 
-See kaust sisaldab kümne praktilise töö seeriat mootori juhtimise
-kihilise arhitektuuri õppimiseks. Iga töö tuleb teha eraldi alamkaustas, et
-eelmise töö lähtekood ja katsetulemused säiliksid.
+See kaust sisaldab kümne praktilise tööd.
 
 ## Tööde järjekord
 
@@ -152,16 +150,4 @@ Kui alustad uut praktilist tööd:
 7. testi enne mootori käivitamist toited, ühine GND ja ohutusolukord;
 8. uuenda selle juurkausta tööde tabelit.
 
-## Tööde hindamise põhimõte
-
-Oluline ei ole ainult see, et mootor pöörleb. Iga töö peab näitama, et selle
-töö põhikiht on ülejäänud kihist päriselt eraldatud.
-
-- Töö 1 loob töötava lähtebaasi.
-- Tööd 2–3 loovad seadmeabstraktsiooni.
-- Tööd 4–5 eraldavad signaaligeneratsiooni ja jagatud ressursi.
-- Tööd 6–8 lisavad ajapõhise juhtimise, tagasiside ja ohutuse.
-- Tööd 9–10 kontrollivad ajastust, koormust ja platvormist sõltumatust.
-
-Kui mõni test ebaõnnestub, tuleb parandada seda kihti, kus piir katki läks,
-mitte lisada kõrgemasse kihti konkreetse riistvara erandit.
+#
