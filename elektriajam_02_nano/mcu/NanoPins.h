@@ -1,0 +1,11 @@
+#ifndef ELEKTRIAJAM_02_NANO_PINS_H
+#define ELEKTRIAJAM_02_NANO_PINS_H
+
+#define NANO_VNH_INA 7
+#define NANO_VNH_INB 8
+#define NANO_VNH_PWM 9
+#define NANO_DRV_STEP 2
+#define NANO_DRV_DIR 3
+#define NANO_DRV_ENBL 4
+
+#endif
